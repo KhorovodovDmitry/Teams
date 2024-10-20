@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sha</class>
+ <widget class="QWidget" name="sha">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>553</width>
+    <height>444</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>491</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayou">
+    <item row="3" column="0" colspan="2">
+     <widget class="QLabel" name="label_error_sha">
+      <property name="styleSheet">
+       <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 64, 64);
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_result_sha">
+      <property name="styleSheet">
+       <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 64, 64);
+background-color: rgb(255, 255, 255);
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="labe_equation_2">
+      <property name="styleSheet">
+       <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 64, 64);
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Text</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_result_2">
+      <property name="styleSheet">
+       <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 64, 64);
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Result</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_exit_sha512">
+        <property name="styleSheet">
+         <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 64, 64);
+background-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_check_sha512">
+        <property name="styleSheet">
+         <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 64, 64);
+background-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit_equation_2">
+      <property name="styleSheet">
+       <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 64, 64);
+background-color: rgb(255, 255, 255);
+</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_login">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>30</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 64, 64);
+background-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 64, 64);
+background-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Login:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
